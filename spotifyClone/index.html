@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="logo.png" alt="Spotify logo" />Spotify</li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="songList">
+        <h1>Best of KK</h1>
+        <div class="songItemContainer">
+            <div class="songItem">
+                <img src="1.jpg" alt="songCover">
+                <span class="songName">Aankho Mein Teri</span>
+                <span class="songlistplay"><span class="timestamp">04:21</span><pre>   <i id="0" class="fa-solid songItemPlay fa-circle-play" style="color: #63e6be"></i></pre></span>
+            </div>
+
+            <div class="songItem">
+                <img src="2.jpg" alt="songCover">
+                <span class="songName">Laboon Ko</span>
+                <span class="songlistplay"><span class="timestamp">05:36</span><pre>   <i id="1" class="fa-solid  songItemPlay fa-circle-play" style="color: #63e6be"></i></pre></span>
+            </div>
+            <div class="songItem">
+              <img src="3.jpg" alt="songCover">
+              <span class="songName">Zara Sa</span>
+              <span class="songlistplay"><span class="timestamp">03:58</span><pre>   <i id="2" class="fa-solid  songItemPlay fa-circle-play" style="color: #63e6be"></i></pre></span>
+          </div>
+          <div class="songItem">
+            <img src="4.jpg" alt="songCover">
+            <span class="songName">Dil Ibadat</span>
+            <span class="songlistplay"><span class="timestamp">04:39</span><pre>   <i id="3" class="fa-solid  songItemPlay fa-circle-play" style="color: #63e6be"></i></pre></span>
+        </div>
+            <div class="songItem">
+                <img src="5.jpg" alt="songCover">
+                <span>O Jaana</span>
+                <span class="songlistplay"><span class="timestamp">04:53</span><pre>   <i id="4" class="fa-solid  songItemPlay fa-circle-play" style="color: #63e6be"></i></pre></span>
+            </div class="songName">
+            <div class="songItem">
+                <img src="6.jpg" alt="songCover">
+                <span class="songName">India Waale</span>
+                <span class="songlistplay"><span class="timestamp">03:58</span><pre>   <i id="5" class="fa-solid  songItemPlay fa-circle-play" style="color: #63e6be"></i></pre></span>
+            </div>
+            <div class="songItem">
+                <img src="7.jpg" alt="songCover">
+                <span class="songName">Tune Maari Entriyaan</span>
+                <span class="songlistplay"><span class="timestamp">04:07</span><pre>   <i id="6" class="fa-solid  songItemPlay fa-circle-play" style="color: #63e6be"></i></pre></span>
+            </div>
+        </div>
+      </div>
+      <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+      <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100" />
+      <div class="icons">
+        <!-- fontawesome icons -->
+        <i class="fa-solid fa-3x fa-backward-fast" id="previous" style="color: #63e6be"></i>
+        <i class="fa-solid fa-3x fa-circle-play" id="masterPlay" style="color: #63e6be"></i>
+        <!-- <i class="fa-solid fa-circle-pause" style="color: #63E6BE;"></i> -->
+        <i class="fa-solid fa-3x fa-forward-fast" id="next" style="color: #63e6be"></i>
+      </div>
+      <div class="songInfo">
+        <img src="musicPlay.gif" width="55px" id="gif" alt="playingGIF" ><span id="masterSongName"></span>
+      </div>
+    </div>
+    <!-- fontawesome Kit -->
+    <script
+      src="https://kit.fontawesome.com/df35dca8f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

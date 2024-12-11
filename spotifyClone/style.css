@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Varela&display=swap');
+body{
+    background-color: rgb(28, 28, 28);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: "Varela", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style-type: none;
+    height: 68px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    color: white;
+}
+.brand img{
+    height: 69px;
+    width: 69px;
+    padding: 0 3px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+
+}
+.container{
+    min-height: 70vh;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    font-family: "salina", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  display: flex;
+  margin: 18px auto;
+  padding: 20px;
+  border-radius: 15px;
+  width: 68%;
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size:100% ;
+  
+}
+.bottom{
+    position: sticky;
+    height: 86px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icons i{
+    margin-top: 15px;
+    cursor: pointer;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: rgb(247, 169, 182);
+    /* width: 80%; */
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 26px;
+}
+.songItem img{
+    position: relative;
+    left: 2px;
+    float: left;
+    width: 45px;
+    height: 85%;
+    margin: 0 23px ;
+    border-radius: 28px;
+    border: 2px solid black;
+
+
+}
+.timestamp{
+   margin: 0 20px; 
+}
+.songItem i{
+    margin: 0 12px;
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 10px;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    display: flex;
+    align-items: center;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.6s ease-in;
+}
